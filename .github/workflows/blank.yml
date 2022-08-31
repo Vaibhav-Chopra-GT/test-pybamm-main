@@ -15,4 +15,4 @@ jobs:
             token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
             repo: test-pybamm
             owner: Vaibhav-Chopra-GT
-            event_type: github.event_name
+            event_type: ${{ github.event_name }}
