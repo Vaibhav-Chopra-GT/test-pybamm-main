@@ -16,3 +16,7 @@ jobs:
             repo: test-pybamm
             owner: Vaibhav-Chopra-GT
             event_type: ${{ github.event_name }}
+            message: |
+              {
+                "commit_hash": "${{ GITHUB_SHA }}"
+              }
