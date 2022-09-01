@@ -1,2 +1,2 @@
 # test-pybamm-main
-using as main
+using as main_
