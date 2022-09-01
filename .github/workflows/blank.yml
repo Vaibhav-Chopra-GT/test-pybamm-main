@@ -1,6 +1,8 @@
 name: Alert validation repository
 on: 
   release:
+    types:
+      - published
   push:
     branches:
       - main
